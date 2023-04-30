@@ -12,9 +12,17 @@
 		2C416CBE29FD89A3008BE2A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C416CBD29FD89A3008BE2A4 /* Assets.xcassets */; };
 		2C416CC129FD89A3008BE2A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C416CC029FD89A3008BE2A4 /* Preview Assets.xcassets */; };
 		2C416CC829FDAD11008BE2A4 /* MapTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C416CC729FDAD11008BE2A4 /* MapTestView.swift */; };
+<<<<<<< HEAD
 		8E07030329FDF9D900A99AB8 /* PrincipalConductor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E07030229FDF9D900A99AB8 /* PrincipalConductor.swift */; };
 		8E07030729FE060200A99AB8 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E07030629FE060200A99AB8 /* extensions.swift */; };
 		8E07030B29FE3A3500A99AB8 /* ProximaParada.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E07030A29FE3A3500A99AB8 /* ProximaParada.swift */; };
+=======
+		2C416CCA29FDB40F008BE2A4 /* TextToSpeechTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C416CC929FDB40F008BE2A4 /* TextToSpeechTestView.swift */; };
+		2C8A82E429FDD43600C33815 /* RouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8A82E329FDD43600C33815 /* RouteView.swift */; };
+		2C8A82E629FDDB2800C33815 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8A82E529FDDB2800C33815 /* MainView.swift */; };
+		2C8A82E929FDF52500C33815 /* TripsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8A82E829FDF52500C33815 /* TripsView.swift */; };
+		2C8A82EB29FE00A000C33815 /* TripDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8A82EA29FE00A000C33815 /* TripDetailsView.swift */; };
+>>>>>>> refs/remotes/origin/main
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,9 +32,17 @@
 		2C416CBD29FD89A3008BE2A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C416CC029FD89A3008BE2A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2C416CC729FDAD11008BE2A4 /* MapTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTestView.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		8E07030229FDF9D900A99AB8 /* PrincipalConductor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalConductor.swift; sourceTree = "<group>"; };
 		8E07030629FE060200A99AB8 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
 		8E07030A29FE3A3500A99AB8 /* ProximaParada.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProximaParada.swift; sourceTree = "<group>"; };
+=======
+		2C416CC929FDB40F008BE2A4 /* TextToSpeechTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToSpeechTestView.swift; sourceTree = "<group>"; };
+		2C8A82E329FDD43600C33815 /* RouteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteView.swift; sourceTree = "<group>"; };
+		2C8A82E529FDDB2800C33815 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		2C8A82E829FDF52500C33815 /* TripsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsView.swift; sourceTree = "<group>"; };
+		2C8A82EA29FE00A000C33815 /* TripDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailsView.swift; sourceTree = "<group>"; };
+>>>>>>> refs/remotes/origin/main
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +77,8 @@
 		2C416CB829FD89A2008BE2A4 /* Hackathon-iOS-2023 */ = {
 			isa = PBXGroup;
 			children = (
+				2C8A82E729FDF26A00C33815 /* Passenger */,
 				2C416CB929FD89A2008BE2A4 /* Hackathon_iOS_2023App.swift */,
-				2C416CC729FDAD11008BE2A4 /* MapTestView.swift */,
 				2C416CBB29FD89A2008BE2A4 /* ContentView.swift */,
 				2C416CBD29FD89A3008BE2A4 /* Assets.xcassets */,
 				2C416CBF29FD89A3008BE2A4 /* Preview Content */,
@@ -78,6 +94,7 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		8E0702FF29FDF81A00A99AB8 /* Conductor */ = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +102,18 @@
 				8E07030A29FE3A3500A99AB8 /* ProximaParada.swift */,
 			);
 			path = Conductor;
+=======
+		2C8A82E729FDF26A00C33815 /* Passenger */ = {
+			isa = PBXGroup;
+			children = (
+				2C416CC729FDAD11008BE2A4 /* MapTestView.swift */,
+				2C8A82E329FDD43600C33815 /* RouteView.swift */,
+				2C8A82E529FDDB2800C33815 /* MainView.swift */,
+				2C8A82E829FDF52500C33815 /* TripsView.swift */,
+				2C8A82EA29FE00A000C33815 /* TripDetailsView.swift */,
+			);
+			path = Passenger;
+>>>>>>> refs/remotes/origin/main
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,7 +186,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				8E07030729FE060200A99AB8 /* extensions.swift in Sources */,
+=======
+				2C8A82EB29FE00A000C33815 /* TripDetailsView.swift in Sources */,
+				2C8A82E929FDF52500C33815 /* TripsView.swift in Sources */,
+				2C416CCA29FDB40F008BE2A4 /* TextToSpeechTestView.swift in Sources */,
+				2C8A82E629FDDB2800C33815 /* MainView.swift in Sources */,
+				2C8A82E429FDD43600C33815 /* RouteView.swift in Sources */,
+>>>>>>> refs/remotes/origin/main
 				2C416CBC29FD89A2008BE2A4 /* ContentView.swift in Sources */,
 				2C416CBA29FD89A2008BE2A4 /* Hackathon_iOS_2023App.swift in Sources */,
 				8E07030B29FE3A3500A99AB8 /* ProximaParada.swift in Sources */,
@@ -294,8 +331,8 @@
 				DEVELOPMENT_TEAM = TJXG95JTQT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Dame tus datos puerca";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Dame tus datos puerca";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Necesitamos su localización para el funcionamiento de la aplicación";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Necesitamos su localización para el funcionamiento de la aplicación";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -324,8 +361,8 @@
 				DEVELOPMENT_TEAM = TJXG95JTQT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Dame tus datos puerca";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Dame tus datos puerca";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Necesitamos su localización para el funcionamiento de la aplicación";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Necesitamos su localización para el funcionamiento de la aplicación";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
